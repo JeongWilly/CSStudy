@@ -36,6 +36,9 @@
 생성자가 여러번 호출되도, 실제로 생성되는 객체는 하나이며 최초로 생성된 이후에 호출된 생성자는 이미 생성한 객체를 반환시키도록 만드는 것이다
 (java에서는 생성자를 private으로 선언해 다른 곳에서 생성하지 못하도록 만들고, getInstance() 메소드를 통해 받아서 사용하도록 구현한다)
 
+<details>
+<summary>코드 토글</summary>
+<div markdown="1">
 
 ```javascript
 
@@ -88,6 +91,9 @@ true
    어떠한 모듈에서 getInstance()메서드가 호출할 때 싱글톤 객체를 최초로 생성 및 리턴하게 됩니다.
    */
 ```
+
+</div>
+</details>
 
 싱글톤 패턴은 Node.js에서 MongoDB 데이터베이스를 연결할 때 mongoose모듈을 사용.
 싱글톤 패턴은 Node.js에서 MySQL 데이터베이스를 연결할 때도 사용.
@@ -160,6 +166,9 @@ LatteFactory에서 생성한 인스턴스를 CoffeeFactory에 주입하고 있�
 */
 ```
 
+<details>
+<summary>코드 토글</summary>
+<div markdown="1">
 
 ```java
 
@@ -228,7 +237,8 @@ Factory latte ::Hi this coffee is 4000
 Factory ame ::Hi this coffee is 3000
 */
 ```
-
+</div>
+</details>
 
 ### ✔ 전략 패턴
 
