@@ -39,7 +39,7 @@
       <workItem from="1666018269690" duration="190000" />
       <workItem from="1666019260292" duration="1100000" />
       <workItem from="1666102218501" duration="866000" />
-      <workItem from="1666103324143" duration="363000" />
+      <workItem from="1666103324143" duration="541000" />
     </task>
     <task id="LOCAL-00001" summary="Day01">
       <created>1666018312893</created>
@@ -69,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666103534966</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day02 줄바꿈 띄어쓰기">
+      <created>1666103861732</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666103861732</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +87,7 @@
     <MESSAGE value="Day01 코드 토글추가" />
     <MESSAGE value="Day02 cs공부" />
     <MESSAGE value="Day02 줄바꿈" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day02 줄바꿈" />
+    <MESSAGE value="Day02 줄바꿈 띄어쓰기" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day02 줄바꿈 띄어쓰기" />
   </component>
 </project>
