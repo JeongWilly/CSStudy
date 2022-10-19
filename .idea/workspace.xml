@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ab7199-872b-4487-b265-e3ee47b12b1a" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Day03.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day03.md" beforeDir="false" afterPath="$PROJECT_DIR$/Day03.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
       <workItem from="1666102218501" duration="866000" />
       <workItem from="1666103324143" duration="541000" />
       <workItem from="1666103973134" duration="266000" />
-      <workItem from="1666190447405" duration="912000" />
+      <workItem from="1666190447405" duration="1757000" />
     </task>
     <task id="LOCAL-00001" summary="Day01">
       <created>1666018312893</created>
@@ -92,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666104227831</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Day03">
+      <created>1666191471003</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666191471003</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Day03 내용 수정">
+      <created>1666191684360</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666191684360</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +115,8 @@
     <MESSAGE value="Day02 줄바꿈 띄어쓰기" />
     <MESSAGE value="Day02 띄어쓰기" />
     <MESSAGE value="Day02 &lt;br&gt;줄바꿈" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day02 &lt;br&gt;줄바꿈" />
+    <MESSAGE value="Day03" />
+    <MESSAGE value="Day03 내용 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day03 내용 수정" />
   </component>
 </project>

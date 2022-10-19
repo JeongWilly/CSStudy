@@ -188,26 +188,34 @@ JAVA의 경우 jdk 1.8부터 함수형 프로그래밍 패러다임을 지원하
 
 
 
+<br>
 
+#### 자연수로 이뤄진 배열에서 최댓값을 찾는 로직
 
-자연수로 이뤄진 배열에서 최댓값을 찾는 로직
+<details>
+<summary>코드 토글</summary>
+<div markdown="1">
+
+```javascript
 
 const ret = [1, 2, 3, 4, 5, 11, 12]
 .reduce((max, num) => num > max ? num : max, 0)
 console.log(ret) //12
 
 // num>max 조건문을 통해 true면 num을 false면 max를 반환해주고 0을 초깃값으로 둔다
-
+```
+</div>
+</details>
 
 reduce()는 '배열'만 받아서 누적한 결괏값을 반환하는 순수 함수
 
 
 
-#### 함수형 프로그래밍
+### 함수형 프로그래밍
 
  -   '순수 함수'들을 블록처럼 쌓아 로직을 구현하고 '고차 함수'를 통해 재사용성을 높인 프로그래밍 패러다임
 
-#### 자바스크립트
+### 자바스크립트
 
  -   단순하고 유연한 언어이며, 함수가 일급 객체이기 때문에 객체지향 프로그래밍보단 함수형 프로그래밍 방식 선호
 
@@ -216,14 +224,25 @@ reduce()는 '배열'만 받아서 누적한 결괏값을 반환하는 순수 함
 ### 순수 함수
 출력이 입력에만 의존하는 것
 
+
+<details>
+<summary>코드 토글</summary>
+<div markdown="1">
+
+```javascript
+
 const pure = (a, b) => {
 return a+b
 }
+```
+</div>
+</details>
+
 pure 함수는 매개변수 a,b에만 영향을 받는다.
 
 만약 a,b 말고 다른 전역 변수 c 등이 이 출력에 영향을 주면 순수 함수가 아닙니다.
 
-
+<br>
 
 ### 고차함수
 함수가 함수를 값처럼 매개변수로 받아 로직을 생성할 수 있는 것
@@ -244,7 +263,7 @@ pure 함수는 매개변수 a,b에만 영향을 받는다.
 이외에도 커링, 불변성 등 많은 특징이 있다
 
 
-
+<br>
 
 
 ## 👌1.2.2 객체지향 프로그래밍
@@ -252,6 +271,12 @@ pure 함수는 매개변수 a,b에만 영향을 받는다.
 : 객체들의 집합으로 프로그램의 상호 작용을 표현하며 데이터를 객체로 취급하여 객체 내부에 선언된 메서드를 활용
 
 설계에 많은 시간이 소요, 처리 속도가 다른 프로그래밍 패러다임에 비해 상대적으로 느리다
+
+<details>
+<summary>코드 토글</summary>
+<div markdown="1">
+
+```javascript
 
 const ret = [1,2,3,4,5,11,12]
 class List{
@@ -266,31 +291,34 @@ return this.mx
 const a = new List(ret)
 console.log(a.getMax()) //12
 
+```
+</div>
+</details>
 
 List라는 클래스를 만들고 a라는 객체를 만들 때 최댓값을 추출해내는 메서드를 만든 예제
 
 
+<br>
 
 
-
-### 객체지향 프로그래밍의 특징
+## 객체지향 프로그래밍의 특징
 : 추상화, 캡슐화, 상속성, 다형성이라는 특징
 
 
 
-#### - 추상화(abstraction)
+### - 추상화(abstraction)
 
 복잡한 시스템으로부터 핵심 개념 또는 기능을 간추려내는 것
 
 
 
-#### - 캡슐화(encapsulation)
+### - 캡슐화(encapsulation)
 
 객체의 속성과 메서드를 하나로 묶어 일부를 외부에 감춰 은닉하는 것
 
 
 
-#### - 상속성(inheritance)
+### - 상속성(inheritance)
 
 상위 클래스의 특성을 하위 클래스가 이어받아 재사용하거나 추가, 확장하는 것
 
@@ -298,17 +326,24 @@ List라는 클래스를 만들고 a라는 객체를 만들 때 최댓값을 추�
 
 
 
-#### - 다형성(polymorphism)
+### - 다형성(polymorphism)
 
 하나의 메서드나 클래스가 다양한 방법으로 동작하는 것
 
 ex)오버로딩, 오버라이딩이 대표적이다
 
-
+<br>
 
 ## 오버로딩(overloading)
 같은 이름을 가진 메서드를 여러 개 두는 것
 매개변수의 유형, 개수 등으로 여러 개를 둘 수 있고 컴파일 중 발생하는 '정적' 다형성
+
+<details>
+<summary>코드 토글</summary>
+<div markdown="1">
+
+```java
+
 class Person{
 
 	public void eat(String a){
@@ -332,11 +367,23 @@ public class CalculateArea{
 I eat apple
 I eat tomato and phodo
 */
-위 코드처럼 매개변수의 개수에 따라 다른 함수가 호출되는 것을 알 수 있다
 
+```
+</div>
+</details>
+
+위 코드처럼 매개변수의 개수에 따라 다른 함수가 호출되는 것을 알 수 있다
+<br>
 ### 오버라이딩(overriding)
 주로 메서드 오버라이딩(method overriding)을 말하며 상위 클래스로부터 상속받은 메서드를 하위 클래스가 재정의하는 것을 의미
 런타임 중에 발생하는 '동적' 다형성
+
+<details>
+<summary>코드 토글</summary>
+<div markdown="1">
+
+```java
+
 class Animal{
 public void brak(){
 System.out.prinltn("mumu! mumu!");
@@ -345,7 +392,7 @@ System.out.prinltn("mumu! mumu!");
 
 class Dog extends Animal{
 @Override
-publci void bark(){
+public void bark(){
 System.out.println("wal!!! wal!!!");
 }
 }
@@ -360,6 +407,10 @@ d.bark();
 /*
 wal!!! wal!!!
 */
+
+```
+</div>
+</details>
 부모 클래스에서 정의해도 자식 클래스에서 재성의하면 자식 클래스 기반으로 메서드가 재정의된다.
 
 
@@ -378,10 +429,14 @@ ex) a라는 로직이 존재하면 어떤 클래스는 a에 관한 클래스여�
 
 
 
+
+
 ### 개방 - 폐쇄 원칙 (OCP, Open Closed Principle)
 : 유지 보수 사항이 생기면 코드를 쉽게 확장할 수 있게 하고  수정할 때는 닫혀 있어야 하는 원칙
 
 기존의 코드는 잘 변경하지 않으면서 확장은 쉽게 할 수 있어야 한다
+
+
 
 
 
@@ -390,12 +445,16 @@ ex) a라는 로직이 존재하면 어떤 클래스는 a에 관한 클래스여�
 
 클래스는 상속이 되기 마련이고 부모, 자식이라는 계층 관계가 만들어지는데,  부모 객체에 자식 객체를 넣어도 시스템이 문제없이 돌아가게 만드는 것
 
-즉, 부모 객체와 자식 객체를 바꿔도 문제가 없어야 한다.
+즉, 부모 객체와 자식 객체를 바꿔도 문제가 없어야 한다.  
 
+
+  
 
 
 ### 인터페이스 분리 원칙(ISP, Interface Segregation Principle)
 : 하나의 일반적인 인터페이스보다 구체적인 여러 개의 인터페이스를 만들어야 하는 원칙
+
+  
 
 
 
@@ -425,15 +484,25 @@ ex) 포트란(fortran)을 이용한 대기 과학 관련 연산 작업,머신 �
 
 자연수로 이뤄진 배열에서 최댓값을 찾으라 한다면 다음과 같이 로직을 구상
 
+
+<details>
+<summary>코드 토글</summary>
+<div markdown="1">
+
+```javascript
+
 const ret = [1, 2, 3, 4, 5, 11, 12]
 let a = 0
 for (let i =0;i < ret.length; i++){
 a = Math.max(ret[i], a)
 }
 console.log(a) //12
-ret.length 길이만큼 반복해주고 i를 1씩 증가시키며 ret[i]와 a를 비교하여 큰 값을 a에 대입한다
 
+```
+</div>
+</details>
 
+ret.length 길이만큼 반복해주고 i를 1씩 증가시키며 ret[i]와 a를 비교하여 큰 값을 a에 대입한다 
 
 ## 👌1.2.4 패러다임의 혼합
 가장 좋은 패러다임이라는 것은 없다. 비즈니스 로직이나 서비스의 특징을 고려하여 패러다임을 정하는 것이 좋다
