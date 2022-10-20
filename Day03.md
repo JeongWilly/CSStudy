@@ -203,6 +203,7 @@ const ret = [1, 2, 3, 4, 5, 11, 12]
 console.log(ret) //12
 
 // num>max 조건문을 통해 true면 num을 false면 max를 반환해주고 0을 초깃값으로 둔다
+
 ```
 </div>
 </details>
@@ -234,6 +235,7 @@ reduce()는 '배열'만 받아서 누적한 결괏값을 반환하는 순수 함
 const pure = (a, b) => {
 return a+b
 }
+
 ```
 </div>
 </details>

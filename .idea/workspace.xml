@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ab7199-872b-4487-b265-e3ee47b12b1a" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day03.md" beforeDir="false" afterPath="$PROJECT_DIR$/Day03.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,15 +22,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/willy/IdeaProjects/csStudy&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/willy/IdeaProjects/.idea",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -43,7 +44,9 @@
       <workItem from="1666102218501" duration="866000" />
       <workItem from="1666103324143" duration="541000" />
       <workItem from="1666103973134" duration="266000" />
-      <workItem from="1666190447405" duration="1757000" />
+      <workItem from="1666190447405" duration="1868000" />
+      <workItem from="1666241509259" duration="636000" />
+      <workItem from="1666250926987" duration="2289000" />
     </task>
     <task id="LOCAL-00001" summary="Day01">
       <created>1666018312893</created>
@@ -101,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666191684360</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Day03 내용 수정 및 토글">
+      <created>1666192385742</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666192385742</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +127,7 @@
     <MESSAGE value="Day02 &lt;br&gt;줄바꿈" />
     <MESSAGE value="Day03" />
     <MESSAGE value="Day03 내용 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day03 내용 수정" />
+    <MESSAGE value="Day03 내용 수정 및 토글" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day03 내용 수정 및 토글" />
   </component>
 </project>
