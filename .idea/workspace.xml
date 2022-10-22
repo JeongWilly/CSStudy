@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ab7199-872b-4487-b265-e3ee47b12b1a" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Day04.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day05.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_18.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +28,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/willy/IdeaProjects/.idea&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/willy/IdeaProjects/miniproject&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
@@ -58,7 +48,8 @@
       <workItem from="1666190447405" duration="1868000" />
       <workItem from="1666241509259" duration="636000" />
       <workItem from="1666250926987" duration="2328000" />
-      <workItem from="1666329867038" duration="1710000" />
+      <workItem from="1666329867038" duration="3317000" />
+      <workItem from="1666445044596" duration="689000" />
     </task>
     <task id="LOCAL-00001" summary="Day01">
       <created>1666018312893</created>
@@ -130,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666274719934</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Day04">
+      <created>1666331765394</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666331765394</updated>
+    </task>
+    <task id="LOCAL-00012" summary="이미지 위치수정">
+      <created>1666331893136</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666331893136</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +152,8 @@
     <MESSAGE value="Day03" />
     <MESSAGE value="Day03 내용 수정 및 토글" />
     <MESSAGE value="Day03 내용 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day03 내용 수정" />
+    <MESSAGE value="Day04" />
+    <MESSAGE value="이미지 위치수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="이미지 위치수정" />
   </component>
 </project>
