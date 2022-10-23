@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71ab7199-872b-4487-b265-e3ee47b12b1a" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Day05.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_18.png" afterDir="false" />
+    <list default="true" id="71ab7199-872b-4487-b265-e3ee47b12b1a" name="변경" comment="Day05">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,7 @@
       <workItem from="1666241509259" duration="636000" />
       <workItem from="1666250926987" duration="2328000" />
       <workItem from="1666329867038" duration="3317000" />
-      <workItem from="1666445044596" duration="689000" />
+      <workItem from="1666445044596" duration="1957000" />
     </task>
     <task id="LOCAL-00001" summary="Day01">
       <created>1666018312893</created>
@@ -135,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666331893136</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Day05">
+      <created>1666445749051</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666445749051</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +159,7 @@
     <MESSAGE value="Day03 내용 수정" />
     <MESSAGE value="Day04" />
     <MESSAGE value="이미지 위치수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="이미지 위치수정" />
+    <MESSAGE value="Day05" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day05" />
   </component>
 </project>
