@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71ab7199-872b-4487-b265-e3ee47b12b1a" name="변경" comment="Day05">
+    <list default="true" id="71ab7199-872b-4487-b265-e3ee47b12b1a" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/Day06.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_31.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +62,8 @@
       <workItem from="1666250926987" duration="2328000" />
       <workItem from="1666329867038" duration="3317000" />
       <workItem from="1666445044596" duration="1957000" />
+      <workItem from="1666535276564" duration="236000" />
+      <workItem from="1666680241951" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="Day01">
       <created>1666018312893</created>
@@ -140,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666445749051</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Day05 일부수정">
+      <created>1666535456450</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666535456450</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Day05 일부수정">
+      <created>1666535489867</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666535489867</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +190,7 @@
     <MESSAGE value="Day04" />
     <MESSAGE value="이미지 위치수정" />
     <MESSAGE value="Day05" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day05" />
+    <MESSAGE value="Day05 일부수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day05 일부수정" />
   </component>
 </project>
