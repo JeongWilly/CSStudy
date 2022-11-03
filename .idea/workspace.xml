@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ab7199-872b-4487-b265-e3ee47b12b1a" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/Day08.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_36.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day07.md" beforeDir="false" afterPath="$PROJECT_DIR$/Day07.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +58,8 @@
       <workItem from="1666787690564" duration="1797000" />
       <workItem from="1666851780572" duration="597000" />
       <workItem from="1666881569400" duration="538000" />
-      <workItem from="1666967385304" duration="667000" />
+      <workItem from="1666967385304" duration="708000" />
+      <workItem from="1667479988991" duration="2080000" />
     </task>
     <task id="LOCAL-00001" summary="Day01">
       <created>1666018312893</created>
@@ -181,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666882100536</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Day07 사이즈 조정">
+      <created>1666969022297</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1666969022297</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

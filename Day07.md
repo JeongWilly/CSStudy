@@ -73,4 +73,3 @@ LAN 카드라고 하는 네트워크 인터페이스 카드(NIC,Network Interfac
 AP(Access Point)는 패킷을 복사하는 기기입니다.(무선랜을 구성하는 장치중 하나로, 유선랜과 무선랜을 연결시켜주는 장치)
 ![](https://velog.velcdn.com/images/guddyd6761/post/579d4ee5-dbeb-4e48-b15c-4214885e14c7/image.png)
 AP에 유선 LAN을 연결한 후 다른 장치에서 무선 LAN기술을 사용하여 무선 네트워크 연결을 할 수 있습니다.
-
