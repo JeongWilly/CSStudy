@@ -208,9 +208,7 @@ QUIC는 첫 연결 설정에 1-RTT만 소요되는데, 이는 클라이언트가
 
 
 
-
 QUIC(Quick UDP Internet Connections) : 범용 목적의 전송 계층 통신
-
 
 
 QUIC은 순방향 오류 수정 메커니즘(FEC, Forword Error Correction)이 적용된다
